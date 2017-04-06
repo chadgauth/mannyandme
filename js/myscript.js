@@ -1,7 +1,7 @@
 var $introduction = $('<div class="announcement-container">' + 
                       '<div class="announcement delay 1000">This is a story of boy meets boy.</div>' +
-                      '<div class="announcement delay 3500">But you should know upfront,</div>' +
-                      '<div class="announcement delay 6000">this is not a traditional love story.</div>' +
+                      '<div class="announcement delay 4000">But you should know upfront,</div>' +
+                      '<div class="announcement delay 8000">this is not a traditional love story.</div>' +
                       '</div>');
 
 function start($screenContent){
