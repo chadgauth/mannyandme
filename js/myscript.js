@@ -1,5 +1,5 @@
 var $introduction = $('<div class="announcement-container">' + 
-                      '<div class="announcement delay 500">This is a story of boy meets boy.</div>' +
+                      '<div class="announcement delay 0">This is a story of boy meets boy.</div>' +
                       '<div class="announcement delay 4810">But you should know upfront,</div>' +
                       '<div class="announcement delay 6700">this is not a traditional love story.</div>' +
                       '</div>');
