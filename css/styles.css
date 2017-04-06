@@ -20,7 +20,7 @@ body{
     line-height: 2.2em;
   text-align: center;
   opacity: 0;
-  transition: opacity .5s linear;
+  transition: opacity 1.65s linear;
   font-family: 'Pacifico', cursive;
 }
 
