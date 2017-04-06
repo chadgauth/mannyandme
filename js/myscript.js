@@ -7,6 +7,6 @@ var $introduction = $('<div class="announcement-container">' +
 function start($screenContent){
     $('body').append($screenContent);
     return start; //return the function itself to reference
-}();
+};
 
 $(start($introduction));
