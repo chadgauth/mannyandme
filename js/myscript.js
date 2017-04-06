@@ -4,7 +4,7 @@ var $introduction = $('<div class="announcement-container">' +
                       '<div class="announcement delay 8700">this is not a traditional love story.</div>' +
                       '</div>').bind("click", function(){ $('meta[name="theme-color"]')[0].content = "#00FF00"; });
 
-function start($screenContent, hasDelays){
+function start($screenContent){
     $('body').append($screenContent);
     if (hasDelays) executeDelays(); 
 };
