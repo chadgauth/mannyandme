@@ -10,7 +10,7 @@ function start($screenContent){
     var delays = [];
     for(d in $delay){
       if ($delay[d].classList != undefined)
-        delays.push = ($delay[d].classList[2]);
+        delays.push(($delay[d].classList[2]));
     }
     for(dIdx in delays){
       setTimeout($delay(dIdx).css("opacity", 1), delays[dIdx]);  
