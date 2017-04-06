@@ -7,8 +7,8 @@ var $introduction = $('<div class="announcement-container">' +
 function start($screenContent){
     $('body').append($screenContent);
     var $delay = $('.delay');
+    var delays = [];
     for(d in $delay){
-      var delays = [];
       if ($delay[d].classList != undefined)
         delays.push = ($delay[d].classList[2]);
     }
