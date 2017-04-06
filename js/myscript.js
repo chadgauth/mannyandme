@@ -8,7 +8,12 @@ function start($screenContent){
     $('body').append($screenContent);
     var $delay = $('.delay');
     for(d in $delay){
-      console.log($delay[d].classList != undefined && $delay[d].classList[2]);;
+      var delays = [];
+      if ($delay[d].classList != undefined)
+        delays.push = ($delay[d].classList[2]);
+    }
+    for(dIdx in delays){
+      setTimeout($delay(dIdx).css("opacity", 1), delays[dIdx]);  
     }
     return start; //return the function itself to reference
 };
