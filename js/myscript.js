@@ -13,9 +13,13 @@ function start($screenContent){
         delays.push(($delay[d].classList[2]));
     }
     for(dIdx in delays){
-      setTimeout(function(){$($delay[dIdx]).css("opacity", 1)}, parseInt(delays[dIdx]));  
+       delayDisplay($($delay[dIdx]), parseInt(delays[dIdx]));
     }
     return start; //return the function itself to reference
+};
+
+function delayDisplay($content, delay){
+    setTimeout(function(){$content.css("opacity", 1)}, delay); 
 };
 
 $(start($introduction));
