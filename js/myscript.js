@@ -6,6 +6,10 @@ var $introduction = $('<div class="announcement-container">' +
 
 function start($screenContent){
     $('body').append($screenContent);
+    var $delay = $('.delay');
+    for(d in $delay){
+      console.log(delay[d].classList != undefined && delay[d].classList[2]);;
+    }
     return start; //return the function itself to reference
 };
 
