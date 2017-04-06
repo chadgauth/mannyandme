@@ -1,6 +1,9 @@
+* {
+  font-size:16px; 
+}
+
 body{
   background:black;
-  font-size: 16px;
 }
 
 .announcement-container{
@@ -14,5 +17,6 @@ body{
   text-align: center;
   opacity: 0;
   transition: opacity .5s linear;
+  font-family: 'Pacifico', cursive;
 }
 
