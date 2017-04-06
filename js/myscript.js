@@ -22,4 +22,4 @@ function delayDisplay($content, delay){
     setTimeout(function(){$content.css("opacity", 1)}, delay); 
 };
 
-$(start($introduction));
+$($('audio')[0].play(); start($introduction));
