@@ -2,6 +2,10 @@
   font-size:16px; 
 }
 
+audio{
+  display:none; 
+}
+
 body{
   background:black;
 }
