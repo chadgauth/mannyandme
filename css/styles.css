@@ -11,9 +11,9 @@ body{
 }
 
 .announcement {
-  color: white;
-  font-size: 1.5em;
-  line-height: 1.8em;
+  color: #ffcaa9;
+    font-size: 1.4em;
+    line-height: 2.2em;
   text-align: center;
   opacity: 0;
   transition: opacity .5s linear;
