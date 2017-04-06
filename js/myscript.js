@@ -6,7 +6,7 @@ var $introduction = $('<div class="announcement-container">' +
 
 function start($screenContent){
     $('body').append($screenContent);
-    if (hasDelays) executeDelays(); 
+    executeDelays(); 
 };
 
 function delayDisplay($content, delay){
