@@ -79,5 +79,5 @@ function navigate3(){
 function navigate4(){
   $grindrContent.remove();
   $('.grind').remove();
-  $grindrContent.append($chatContent);
+  $grindrScreen.append($chatContent);
 }
