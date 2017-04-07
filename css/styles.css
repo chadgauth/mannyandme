@@ -219,7 +219,7 @@ audio{
     border: 2px solid #00005d;
     margin: 0 18px;
     position: absolute;
-    width: 380px;
+        width: 370px;
     line-height: 1.5em;
     top: 605px;
 }
