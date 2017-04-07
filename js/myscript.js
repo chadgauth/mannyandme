@@ -70,7 +70,7 @@ var $chadChar = $(`<div class='kawaii'>
 </div>`);
 
 
-var $mannyChar = `<div class='kawaii'>
+var $mannyChar = $(`<div class='kawaii'>
   <div class='head-wrap'>
     <div class='head'>
       <div class='hair-part-front skater puff'></div>
@@ -92,8 +92,7 @@ var $mannyChar = `<div class='kawaii'>
     <div class='leg shoe right'></div>
     <div class='shorts'></div>
   </div>
-</div>
-`);
+</div>`);
 
 function start($content){
     $('body').append($content);
