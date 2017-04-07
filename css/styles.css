@@ -181,6 +181,11 @@ audio{
   background:#fff0c8;
 }
 
+.announcement.meetc{
+  color: #6d6aef;
+  font-size: 1.3em;
+}
+
 .announcement {
   color: #ffcaa9;
     font-size: 1.4em;
