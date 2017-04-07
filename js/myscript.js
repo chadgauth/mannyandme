@@ -37,13 +37,15 @@ var $chatOptionsGo = $('</div><div class="choices delay 500 height 120px">' +
                     .bind("click", navigate5);
 $chatContent.append($chatOptionsGo);
 
-var $unremarkableScreen = $('<div class="announcement-container fade-slow full b-red">' + 
-                      '<div class="announcement delay 0 opacity 1 start-hidden fade-slow">This is a story of boy meets boy.</div>' +
-                      '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow">But you should know upfront,</div>' +
-                      '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow">this is not a traditional love story.</div>' +
+var $unremarkableScreen = $('<div class="announcement-container fade-slow full b-yellow">' + 
+                      '<div class="announcement delay 0 opacity 1 start-hidden fade-slow c-black">Most days of the year are unremarkable.</div>' +
+                      '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow c-black">They begin and they end</div>' +
+                      '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow c-black">with no lasting memory made in between.</div>' +
+                      '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow c-black">Most days have no impact on the course of a life.</div>' +
+                      '<div class="announcement delay 9700 opacity 1 start-hidden fade-slow c-black">But this was not one of those days.</div>' +
                       '</div>');
 
-var $characterScreen = $(`<div class='kawaii'>
+var $chadChar = $(`<div class='kawaii'>
   <div class='head-wrap'>
     <div class='head'>
       <div class='hair-part-front skater'></div>
@@ -65,8 +67,10 @@ var $characterScreen = $(`<div class='kawaii'>
     <div class='leg shoe right'></div>
     <div class='shorts long blue'></div>
   </div>
-</div>
-<div class='kawaii'>
+</div>`);
+
+
+var $mannyChar = `<div class='kawaii'>
   <div class='head-wrap'>
     <div class='head'>
       <div class='hair-part-front skater puff'></div>
@@ -144,5 +148,5 @@ function navigate4(){
 
 function navigate5(){
  $grindrScreen.remove();
- start($characterScreen);
+ start($unremarkableScreen);
 }
