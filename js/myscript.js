@@ -63,7 +63,7 @@ var $characterScreen = $(`<div class='kawaii'>
     <div class='arm right'></div>
     <div class='leg shoe left'></div>
     <div class='leg shoe right'></div>
-    <div class='shorts'></div>
+    <div class='shorts long blue'></div>
   </div>
 </div>
 <div class='kawaii'>
