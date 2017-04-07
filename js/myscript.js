@@ -39,13 +39,14 @@ $chatContent.append($chatOptionsGo);
 
 var $unremarkableScreen = $('<div class="announcement-container fade-slow full b-yellow">' + 
                       '<div class="announcement delay 0 opacity 1 start-hidden fade-slow meetc">Most days of the year are unremarkable.</div>' +
+                      '<div class="announcement delay 0 opacity 1 start-hidden fade-slow meetc"> </div>' +      
                       '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow meetc">They begin and they end with</div>' +
                       '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow meetc">no lasting memory made in between.</div>' +
                       '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow meetc"> </div>' +
-                      '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow meetc">Most days have no impact</div>' +
-                      '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow meetc">on the course of a life.</div>' +
-                      '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow meetc"> </div>' +
-                      '<div class="announcement delay 9700 opacity 1 start-hidden fade-slow meetc">But this was not one of those days.</div>' +
+                      '<div class="announcement delay 7700 opacity 1 start-hidden fade-slow meetc">Most days have no impact</div>' +
+                      '<div class="announcement delay 7700 opacity 1 start-hidden fade-slow meetc">on the course of a life.</div>' +
+                      '<div class="announcement delay 7700 opacity 1 start-hidden fade-slow meetc"> </div>' +
+                      '<div class="announcement delay 10700 opacity 1 start-hidden fade-slow meetc">But this was not one of those days.</div>' +
                       '</div>');
 
 var $chadChar = $(`<div class='kawaii'>
