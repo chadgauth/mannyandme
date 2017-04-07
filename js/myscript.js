@@ -8,7 +8,7 @@ var $introGo = $('<div class="heart-icon delay 9000 opacity 1 start-hidden fade-
               .bind("click", navigate2);
 $introduction.append($introGo);
 
-var $phoneScreen = $('<div class="phone-container delay 1000 opacity 1 start-hidden fade-slow full">');
+var $phoneScreen = $('<div class="phone-container delay 0 opacity 1 start-hidden fade-slow full">');
 
 function start($content){
     $('.full').remove();
