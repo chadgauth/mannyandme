@@ -68,6 +68,18 @@ audio{
     box-sizing: border-box;
 }
 
+.photo p {
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    margin: 0;
+    padding: 0;
+    color: #dedede;
+    font-size: 1.1em;
+    text-shadow: 0 0 1px black;
+    font-family: sans-serif;
+}
+
 .message {
     position: absolute;
     background: #ec0b0b;
