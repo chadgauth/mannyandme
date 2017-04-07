@@ -53,8 +53,9 @@ audio{
     z-index: 2;
     position: absolute;
     font-size: 1.2em;
-    bottom: 113px;
-    right: 68px;
+    text-shadow: 0 0 10px black;
+    bottom: 105px;
+    right: 25px;
     font-family: "Press Start 2P", sans-serif;
 }
 #heart {
