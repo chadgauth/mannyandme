@@ -71,10 +71,7 @@ function navigate2(){
 }
 
 function navigate3(){
-  $phoneScreen.css('opacity', 0);
+  $phoneScreen.remove();
   start($grindrScreen);
-  setTimeout(function(){
-    $phoneScreen.remove();
-    $('meta[name="theme-color"]')[0].content = "#000";
-  }, 2000) 
+  $('meta[name="theme-color"]')[0].content = "#000";
 }
