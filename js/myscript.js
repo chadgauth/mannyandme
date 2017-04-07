@@ -16,7 +16,7 @@ var $grindrScreen = $('<div class="grindr-container">' +
                       '<div class="grindr-header" style="opacity: 1;">' +
                       '<div class="grind"></div></div></div>');
 
-var $grindrContent = $('<div class="grindr-content"><div class="manny photo"> +
+var $grindrContent = $('<div class="grindr-content"><div class="manny photo">' +
                        '<p>hquinnzel</p></div></div>');
 
 var $chadGo = $('<div class="chad delay 1500 border-width 3px photo">' +
