@@ -54,6 +54,43 @@ audio{
     left: 10px;
 }
 
+.grindr-content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.photo {
+    width: 32%;
+    background: grey;
+    margin: 4px 0 0 4px;
+    position: relative;
+    height: 131px;
+    box-sizing: border-box;
+}
+
+.message {
+    position: absolute;
+    background: #ec0b0b;
+    width: 26px;
+    height: 25px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    border-radius: 13px;
+    font-weight: bold;
+    color: #2f2f2f;
+    bottom: 4px;
+    right: 4px;
+    opacity: 0;
+    transition: opacity .1s linear;
+}
+
+.chad {
+  border: 0 solid rgba(0, 114, 255, 0.78);
+  transition: border-width .15s linear;
+}
+
 .start-hidden{
   opacity: 0;
 }
