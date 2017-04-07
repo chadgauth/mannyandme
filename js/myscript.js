@@ -32,4 +32,4 @@ function executeDelays(){
 }
 
 $($('audio')[0].play());
-$(start(introArr));
+$(start($introduction));
