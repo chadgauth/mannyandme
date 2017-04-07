@@ -29,7 +29,7 @@ function addPhoto(text) {
   return $('<div class="photo"><p>' + text +'</p></div>')
 }
 
-var $chatContent = $('<div class="grindr-messages"><div class="im-in" style="width:91px">The Flash!</div> +
+var $chatContent = $('<div class="grindr-messages"><div class="im-in" style="width:91px">The Flash!</div>' +
                      '<div class="im-in flash" style=""></div></div>');
 
 function start($content){
