@@ -22,10 +22,11 @@ function executeDelays(){
     var props = [];
     var values = [];
     for(d in $delay){
-      if ($delay[d].classList != undefined)
-      delays.push(($delay[d].classList[2]));
-      props.push(($delay[d].classList[3]));
-      values.push(($delay[d].classList[4]));
+      if ($delay[d].classList != undefined){
+        delays.push(($delay[d].classList[2]));
+        props.push(($delay[d].classList[3]));
+        values.push(($delay[d].classList[4]));
+      }
     }
     for(idx in delays){
        delayCSS($($delay[idx]), parseInt(delays[idx]), props[idx], values[idx]);
