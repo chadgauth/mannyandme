@@ -76,7 +76,7 @@ function navigate3(){
   $('meta[name="theme-color"]')[0].content = "#000";
 }
 
-function navigate3(){
+function navigate4(){
   $grindrContent.remove();
   $('.grind').remove();
   $grindrContent.append($chatContent);
