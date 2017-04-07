@@ -3,7 +3,6 @@
 }
 
 :root {
-    background: url(../images/phoneback.png);
     background-size: cover;
     margin: 0;
     overflow: hidden;
@@ -20,11 +19,18 @@ audio{
   display:none; 
 }
 
+.full{
+  width: 100%;
+  height:800px;
+}
+
+.phone-container{
+  background: url(../images/phoneback.png); 
+}
+
 .announcement-container{
   padding-top: 50px;
   background:black;
-  width:100%;
-  height:800px;
 }
 
 .announcement {
