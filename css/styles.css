@@ -11,7 +11,8 @@ body {
   content: url(../images/phoneback.png?v=2)
            url(../images/GRIND.png)
            url(../images/manny.png)
-           url(../images/chad.png);
+           url(../images/chad.png)
+           url(../images/flash.png);
   visibility: hidden;
   position: absolute;
   left: -999em;
@@ -114,6 +115,33 @@ audio{
   background-size: 100%;
   border: 0 solid rgba(0, 114, 255, 0.78);
   transition: border-width .15s linear;
+}
+
+.grindr-messages {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+
+.im-in {
+    background: #facb2d;
+    padding: 6px 13px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.im-in.flash {
+    background-image: url(../images/flash.png);
+    height: 235px;
+    width: 150px;
+    background-size: 98%;
+    background-position: 2px;
+    background-repeat: no-repeat;
 }
 
 .start-hidden{
