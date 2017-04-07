@@ -8,7 +8,7 @@ var $introGo = $('<div class="heart-icon delay 9000 opacity 1 start-hidden fade-
               .bind("click", navigate2);
 $introduction.append($introGo);
 
-var $phoneScreen = $('<div class="phone-container full">');
+var $phoneScreen = $('<div class="phone-container delay 1000 opacity 1 start-hideen fade-slow full">');
 
 function start($content){
     $('.full').remove();
@@ -42,7 +42,7 @@ $(start($introduction));
 
 function navigate2(){
   $('.announcement-container').css('opacity', 0);
-  setTimeout(start($phoneScreen), 2000);
+  setTimeout(start($phoneScreen), 1000);
   setTimeout(function(){
     $('meta[name="theme-color"]')[0].content = "#86B094";
   }, 2000) 
