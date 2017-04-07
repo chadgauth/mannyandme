@@ -33,17 +33,22 @@ audio{
   background:black;
 }
 
+.start-hidden{
+  opacity: 0;
+}
+
+.fade-slow{
+  transition: opacity 2s linear;
+}
+
 .announcement {
   color: #ffcaa9;
     font-size: 1.4em;
     line-height: 2.2em;
   text-align: center;
-  opacity: 0;
-  transition: opacity 1.65s linear;
   font-family: 'Pacifico', cursive;
 }
 .heart {
-    transition: opacity 2s linear;
     color: white;
     z-index: 2;
     position: absolute;
@@ -53,7 +58,6 @@ audio{
     font-family: sans-serif;
 }
 #heart {
-    transition: opacity 2s linear;
     position: absolute;
     width: 126px;
     height: 101px;
