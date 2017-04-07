@@ -1,11 +1,11 @@
-var $introduction = $('<div class="announcement-container full">' + 
+var $introduction = $('<div class="announcement-container fade-slow full">' + 
                       '<div class="announcement delay 0 opacity 1 start-hidden fade-slow">This is a story of boy meets boy.</div>' +
                       '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow">But you should know upfront,</div>' +
                       '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow">this is not a traditional love story.</div>' +
                       '</div>');
 var $introGo = $('<div class="heart-icon delay 9000 opacity 1 start-hidden fade-slow" id="heart"></div>' +
                  '<div class="heart delay 9000 opacity 1 start-hidden fade-slow">continue</div>')
-              .bind("click", function(){ $('meta[name="theme-color"]')[0].content = "#86B094"; start($phoneScreen) });
+              .bind("click", navigate2);
 $introduction.append($introGo);
 
 var $phoneScreen = $('<div class="phone-container full">');
@@ -39,3 +39,11 @@ function delayCSS($content, delay, cssProp, value){
 
 $($('audio')[0].play());
 $(start($introduction));
+
+function navigate2(){
+  $('.announcement-container').css('opacity', 0);
+  setTimeout(function(){
+    start($phoneScreen);
+    $('meta[name="theme-color"]')[0].content = "#86B094";
+  }, 2000) 
+}
