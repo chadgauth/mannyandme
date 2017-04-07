@@ -4,7 +4,7 @@ var $introduction = $('<div class="announcement-container full">' +
                       '<div class="announcement delay 8700">this is not a traditional love story.</div>' +
                       '</div>');
 var $introGo = $('<div class="heart-button delay 1200">Go</div>')
-              .bind("click", function(){ $('meta[name="theme-color"]')[0].content = "#00FF00"; start($phoneScreen) });
+              .bind("click", function(){ $('meta[name="theme-color"]')[0].content = "#86B094"; start($phoneScreen) });
 $introduction.append($introGo);
 
 var $phoneScreen = $('<div class="phone-container full">');
