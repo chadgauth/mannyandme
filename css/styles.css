@@ -8,7 +8,8 @@ body {
 }
 
 :root:before {
-  content: url(../images/phoneback.png?v=2);
+  content: url(../images/phoneback.png?v=2)
+           url(../images/grind.png);
   visibility: hidden;
   position: absolute;
   left: -999em;
@@ -58,6 +59,17 @@ audio{
     right: 25px;
     font-family: "Press Start 2P", sans-serif;
 }
+
+.grind {
+    background: url(../images/grind.png);
+    background-repeat: no-repeat;
+    width: 181px;
+    height: 172px;
+    position:absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
 #heart {
     position: absolute;
     width: 126px;
