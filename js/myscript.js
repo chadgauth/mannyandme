@@ -34,6 +34,8 @@ var $chatContent = $('<div class="grindr-messages delay 500 height 500px"><div c
 var $chatOptionsGo = $('</div><div class="choices delay 500 height 120px">' +
                      '<div class="choice">OMG so awesome!!!</div><div class="choice">Love it!!!</div>' +
                      '<div class="choice">ur a qt !!!!!1!! </div><div class="choice">Let\'s hang out :)</div></div>');
+$chatContent.append($chatOptionsGo);
+
 
 function start($content){
     $('body').append($content);
@@ -83,5 +85,5 @@ function navigate4(){
   $grindrContent.remove();
   $('.grind').remove();
   $grindrScreen.append($chatContent);
-  $grindrScreen.append($chatOptionsGo);
+  executeDelays();
 }
