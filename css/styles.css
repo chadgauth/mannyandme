@@ -2,8 +2,7 @@
   font-size:16px;
 }
 
-:root {
-    background-size: cover;
+body {
     margin: 0;
     overflow: hidden;
 }
@@ -26,6 +25,7 @@ audio{
 
 .phone-container{
   background: url(../images/phoneback.png); 
+   background-size: cover;
 }
 
 .announcement-container{
