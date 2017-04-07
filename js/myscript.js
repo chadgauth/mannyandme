@@ -18,8 +18,8 @@ var $grindrScreen = $('<div class="grindr-container full">' +
 
 var $grindrContent = $('<div class="grindr-content"><div class="manny photo">' +
                        '<p>hquinnzel</p></div></div>');
-var $chadGo = $('<div class="chad delay 0 border-width 3px photo">' +
-                '<p>waddup boys</p><div class="message delay 0 opacity 1">2</div></div>')
+var $chadGo = $('<div class="chad delay 1000 border-width 3px photo">' +
+                '<p>waddup boys</p><div class="message delay 1000 opacity 1">2</div></div>')
               .bind("click", navigate4);
 $grindrContent.append($chadGo).append(addPhoto("I'm boring")).append(addPhoto("Not worth it"))
 .append(addPhoto("I won't respond")).append(addPhoto("I smell like fritos")).append(addPhoto("Who wants donuTs?"))
