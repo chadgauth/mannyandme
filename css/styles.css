@@ -9,7 +9,9 @@ body {
 
 :root:before {
   content: url(../images/phoneback.png?v=2)
-           url(../images/GRIND.png);
+           url(../images/GRIND.png)
+           url(../images/manny.png)
+           url(../images/chad.png);
   visibility: hidden;
   position: absolute;
   left: -999em;
@@ -22,6 +24,9 @@ audio{
 .full{
   width: 100%;
   height:800px;
+  position:absolute;
+  top: 0;
+  left: 0;
 }
 
 .phone-container{
@@ -65,6 +70,7 @@ audio{
     margin: 4px 0 0 4px;
     position: relative;
     height: 131px;
+    border-radius: 7px;
     box-sizing: border-box;
 }
 
@@ -98,7 +104,14 @@ audio{
     transition: opacity .1s linear;
 }
 
+.manny {
+    background: url(../images/manny.png);
+    background-size: 100%;
+}
+
 .chad {
+  background: url(../images/chad.png);
+  background-size: 100%;
   border: 0 solid rgba(0, 114, 255, 0.78);
   transition: border-width .15s linear;
 }
