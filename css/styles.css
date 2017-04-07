@@ -63,11 +63,12 @@ audio{
 .grind {
     background: url(../images/GRIND.png);
     background-repeat: no-repeat;
-    width: 181px;
-    height: 172px;
-    position:absolute;
-    bottom: 60px;
-    left: 60px;
+    width: 71px;
+    height: 69px;
+    position: absolute;
+    bottom: 162px;
+    left: 90px;
+    background-size: 100%;
 }
 
 #heart {
