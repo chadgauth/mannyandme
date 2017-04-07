@@ -42,7 +42,7 @@ $(start($introduction));
 
 function navigate2(){
   $('.announcement-container').css('opacity', 0);
-  setTimeout(start($phoneScreen), 2000);
+  setTimeout(function(){start($phoneScreen)}, 2000);
   setTimeout(function(){
     $('meta[name="theme-color"]')[0].content = "#86B094";
   }, 2000) 
