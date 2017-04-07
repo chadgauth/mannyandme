@@ -391,6 +391,14 @@ audio{
   transform: rotate(-25deg);
 }
 
+.arm.black{
+  background-color: #525252;
+  box-shadow: inset 0px -60px 0 -30px #ffdfc4, inset 0px -68px 0 -30px black, inset 0px -75px 0 -30px #525252, inset 0px -80px 0 -30px #8fc1f8;
+}
+.shirt.black:before{
+  background-color: #525252;
+}
+
 .leg {
   background-color: #ffdfc4;
   width: 50px;
@@ -1092,6 +1100,5 @@ body {
 
 .kawaii {
   transform: scale(0.5, 0.5);
-  float: left;
 }
 
