@@ -2,6 +2,13 @@
   font-size:16px; 
 }
 
+:root:before {
+  content: url(/images/phoneback.png);
+  visibility: hidden;
+  position: absolute;
+  left: -999em;
+}
+
 audio{
   display:none; 
 }
