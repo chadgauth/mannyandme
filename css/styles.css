@@ -1,5 +1,12 @@
 * {
-  font-size:16px; 
+  font-size:16px;
+}
+
+:root {
+    background: url(../images/phoneback.png);
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
 }
 
 :root:before {
@@ -13,12 +20,11 @@ audio{
   display:none; 
 }
 
-body{
-  background:black;
-}
-
 .announcement-container{
-  margin-top: 50px;
+  padding-top: 50px;
+  background:black;
+  width:100%;
+  height:800px;
 }
 
 .announcement {
