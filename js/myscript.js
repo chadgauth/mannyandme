@@ -1,4 +1,4 @@
-var $introduction = $('<div class="announcement-container fade-slow">' + 
+var $introduction = $('<div class="announcement-container fade-slow full">' + 
                       '<div class="announcement delay 0 opacity 1 start-hidden fade-slow">This is a story of boy meets boy.</div>' +
                       '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow">But you should know upfront,</div>' +
                       '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow">this is not a traditional love story.</div>' +
@@ -8,11 +8,11 @@ var $introGo = $('<div class="heart-icon delay 9000 opacity 1 start-hidden fade-
               .bind("click", navigate2);
 $introduction.append($introGo);
 
-var $phoneScreen = $('<div class="phone-container delay 0 opacity 1 start-hidden fade-slow">');
+var $phoneScreen = $('<div class="phone-container delay 0 opacity 1 start-hidden fade-slow full">');
 var $grindrGo = $('<div class="grind"></div>').bind("click", navigate3);;
 $phoneScreen.append($grindrGo);
 
-var $grindrScreen = $('<div class="grindr-container">' +
+var $grindrScreen = $('<div class="grindr-container full">' +
                       '<div class="grindr-header" style="opacity: 1;">' +
                       '<div class="grind"></div></div></div>');
 
