@@ -188,8 +188,9 @@ audio{
 
 .announcement {
   color: #ffcaa9;
-    font-size: 1.4em;
-    line-height: 2.2em;
+  font-size: 1.4em;
+  line-height: 2.2em;
+  height: 2.2em;
   text-align: center;
   font-family: 'Pacifico', cursive;
 }
