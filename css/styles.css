@@ -435,7 +435,7 @@ audio{
 }
 
 .hair-part-back {
-  background-color: #ff0000;
+  background-color: #563131;
   width: 500px;
   height: 250px;
   border-radius: 50%;
@@ -546,15 +546,16 @@ audio{
 
 .hair-part-front.skater {
   width: 300px;
-  height: 150px;
-  left: 10px;
-  top: -10px;
-  border: 6px solid #000000;
-  border-left: none;
-  transform-origin: 0 50% 0;
-  transform: rotate(0deg);
-  border-radius: 200px 300px 100px 130px;
-  box-shadow: inset -5px -5px 0 0px rgba(128, 0, 0, 0.25), -15px 30px 0 -24px rgba(128, 0, 0, 0.15);
+    background-color: #563131;
+    height: 150px;
+    left: 10px;
+    top: -10px;
+    border: 6px solid #000000;
+    border-left: none;
+    transform-origin: 0 50% 0;
+    transform: rotate(0deg);
+    border-radius: 292px 330px 46px 31px;
+    box-shadow: inset -5px -5px 0 0px rgba(128, 0, 0, 0.25), -15px 30px 0 -24px rgba(128, 0, 0, 0.
 }
 
 .hair-part-back.skater {
@@ -1053,6 +1054,14 @@ audio{
 }
 .shorts:after {
   left: 55px;
+}
+
+.shorts.long:before, .shorts.long:after{
+  height:58px; 
+}
+
+.shorts.blue, .shorts.blue:before, .shorts.blue:after{
+  background-color: #4a6eaf;
 }
 
 .leg.slipper:before, .leg.slipper:after {
