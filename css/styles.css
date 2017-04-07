@@ -1,4 +1,4 @@
-* {
+v* {
   font-size:16px;
 }
 
@@ -8,7 +8,7 @@ body {
 }
 
 :root:before {
-  content: url(../images/phoneback.png);
+  content: url(../images/phoneback.png?v=2);
   visibility: hidden;
   position: absolute;
   left: -999em;
@@ -24,7 +24,7 @@ audio{
 }
 
 .phone-container{
-  background: url(../images/phoneback.png); 
+  background: url(../images/phoneback.png?v=2); 
    background-size: 100%;
 }
 
