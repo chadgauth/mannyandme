@@ -29,9 +29,8 @@ function addPhoto(text) {
   return $('<div class="photo"><p>' + text +'</p></div>')
 }
 
-var $chatContent = $('<div class="grindr-messages delay 500 height: 500px"><div class="im-in" style="width:91px">The Flash!</div>' +
+var $chatContent = $('<div class="grindr-messages delay 500 height 500px"><div class="im-in" style="width:91px">The Flash!</div>' +
                      '<div class="im-in flash"></div>');
-
 var $chatOptionsGo = $('</div><div class="choices delay 500 height 120px">' +
                      '<div class="choice">OMG so awesome!!!</div><div class="choice">Love it!!!</div>' +
                      '<div class="choice">ur a qt !!!!!1!! </div><div class="choice">Let\'s hang out :)</div></div>');
@@ -84,4 +83,5 @@ function navigate4(){
   $grindrContent.remove();
   $('.grind').remove();
   $grindrScreen.append($chatContent);
+  $grindrScreen.append($chatOptionsGo);
 }
