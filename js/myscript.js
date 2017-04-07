@@ -49,6 +49,10 @@ var $unremarkableScreen = $('<div class="announcement-container fade-slow full b
                       '<div class="announcement delay 10700 opacity 1 start-hidden fade-slow meetc">But this was not one of those days.</div>' +
                       '</div>');
 
+var $achievementGo = $('<div class="a-unlocked delay 12000 opacity 1 start-hidden fade-quick">Achievement Unlocked<br>New Friend</div>');
+
+$unremarkableScreen.append($achievementGo);
+
 var $chadChar = $(`<div class='kawaii'>
   <div class='head-wrap'>
     <div class='head'>
