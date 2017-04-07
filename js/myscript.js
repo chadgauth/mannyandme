@@ -9,7 +9,7 @@ var $introGo = $('<div class="heart-icon delay 9000 opacity 1 start-hidden fade-
 $introduction.append($introGo);
 
 var $phoneScreen = $('<div class="phone-container delay 0 opacity 1 start-hidden fade-slow full">');
-var $grindrGo = $('<div class="grind"></div>').bind("click", navigate3);;
+var $grindrGo = $('<div class="grind"></div>').bind("click", navigate3);
 $phoneScreen.append($grindrGo);
 
 var $grindrScreen = $('<div class="grindr-container full">' +
@@ -18,19 +18,19 @@ var $grindrScreen = $('<div class="grindr-container full">' +
 
 var $grindrContent = $('<div class="grindr-content"><div class="manny photo">' +
                        '<p>hquinnzel</p></div></div>');
-
 var $chadGo = $('<div class="chad delay 1500 border-width 3px photo">' +
-                '<p>waddup boys</p><div class="message delay 1500 opacity 1">2</div></div>');
-
+                '<p>waddup boys</p><div class="message delay 1500 opacity 1">2</div></div>')
+              .bind("click", navigate4);;
 $grindrContent.append($chadGo).append(addPhoto("I'm boring")).append(addPhoto("Not worth it"))
 .append(addPhoto("I won't respond")).append(addPhoto("I smell like fritos")).append(addPhoto("Who wants donuTs?"))
 .append(addPhoto("U nekkid yet?")).append(addPhoto("Eunuch 4 eunuch"));
-
 $grindrScreen.append($grindrContent);
-
 function addPhoto(text) {
   return $('<div class="photo"><p>' + text +'</p></div>')
 }
+
+var $chatContent = $('<div class="grindr-messages"><div class="im-in" style="width:91px">The Flash!</div> +
+                     '<div class="im-in flash" style=""></div></div>');
 
 function start($content){
     $('body').append($content);
@@ -74,4 +74,10 @@ function navigate3(){
   $phoneScreen.remove();
   start($grindrScreen);
   $('meta[name="theme-color"]')[0].content = "#000";
+}
+
+function navigate3(){
+  $grindrContent.remove();
+  $('.grind').remove();
+  $grindrContent.append($chatContent);
 }
