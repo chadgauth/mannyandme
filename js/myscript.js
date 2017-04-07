@@ -20,7 +20,7 @@ var $grindrContent = $('<div class="grindr-content"><div class="manny photo">' +
                        '<p>hquinnzel</p></div></div>');
 var $chadGo = $('<div class="chad delay 0 border-width 3px photo">' +
                 '<p>waddup boys</p><div class="message delay 0 opacity 1">2</div></div>')
-              .bind("click", navigate4);;
+              .bind("click", navigate4);
 $grindrContent.append($chadGo).append(addPhoto("I'm boring")).append(addPhoto("Not worth it"))
 .append(addPhoto("I won't respond")).append(addPhoto("I smell like fritos")).append(addPhoto("Who wants donuTs?"))
 .append(addPhoto("U nekkid yet?")).append(addPhoto("Eunuch 4 eunuch"));
@@ -33,9 +33,63 @@ var $chatContent = $('<div class="grindr-messages delay 500 height 500px"><div c
                      '<div class="im-in flash"></div>');
 var $chatOptionsGo = $('</div><div class="choices delay 500 height 120px">' +
                      '<div class="choice">OMG so awesome!!!</div><div class="choice">Love it!!!</div>' +
-                     '<div class="choice">ur a qt !!!!!1!! </div><div class="choice">Let\'s hang out :)</div></div>');
+                     '<div class="choice">ur a qt !!!!!1!! </div><div class="choice">Let\'s hang out :)</div></div>')
+                    .bind("click", navigate5);
 $chatContent.append($chatOptionsGo);
 
+var $unremarkableScreen = $('<div class="announcement-container fade-slow full b-red">' + 
+                      '<div class="announcement delay 0 opacity 1 start-hidden fade-slow">This is a story of boy meets boy.</div>' +
+                      '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow">But you should know upfront,</div>' +
+                      '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow">this is not a traditional love story.</div>' +
+                      '</div>');
+
+var $characterScreen = $(`<div class='kawaii'>
+  <div class='head-wrap'>
+    <div class='head'>
+      <div class='hair-part-front skater'></div>
+      <div class='hair-part-back skater'></div>
+      <div class='skull'>
+        <div class='face'>
+          <div class='eye left'></div>
+          <div class='eye right'></div>
+          <div class='mouth'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='torso'>
+    <div class='shirt square'></div>
+    <div class='arm left'></div>
+    <div class='arm right'></div>
+    <div class='leg shoe left'></div>
+    <div class='leg shoe right'></div>
+    <div class='shorts'></div>
+  </div>
+</div>
+<div class='kawaii'>
+  <div class='head-wrap'>
+    <div class='head'>
+      <div class='hair-part-front skater puff'></div>
+      <div class='hair-part-back skater puff'></div>
+      <div class='skull'>
+        <div class='face'>
+          <div class='eye left'></div>
+          <div class='eye right'></div>
+          <div class='mouth'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='torso'>
+    <div class='shirt square'></div>
+    <div class='arm left'></div>
+    <div class='arm right'></div>
+    <div class='leg shoe left'></div>
+    <div class='leg shoe right'></div>
+    <div class='shorts'></div>
+  </div>
+</div>
+`);
 
 function start($content){
     $('body').append($content);
@@ -86,4 +140,9 @@ function navigate4(){
   $('.grind').remove();
   $grindrScreen.append($chatContent);
   executeDelays();
+}
+
+function navigate5(){
+ $grindrScreen.remove();
+ start($characterScreen);
 }
