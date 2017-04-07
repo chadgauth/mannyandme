@@ -55,7 +55,7 @@ audio{
     position: absolute;
     font-size: 1.2em;
     text-shadow: 0 0 10px black;
-    bottom: 105px;
+    top: 590px;
     right: 25px;
     font-family: "Press Start 2P", sans-serif;
 }
@@ -78,7 +78,7 @@ audio{
     content: "HEllo";
     z-index: 1;
     right: 40px;
-    bottom: 60px;
+    top: 550px;
 }
 #heart:before, #heart:after {
     position: absolute;
