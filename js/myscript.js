@@ -7,7 +7,7 @@ var $introGo = $('<div class="heart-button delay 1200">Go</div>')
               .bind("click", function(){ $('meta[name="theme-color"]')[0].content = "#00FF00"; start($phoneScreen) });
 $introduction.append($introGo);
 
-var $phoneScreen = $('<div class="phone full">');
+var $phoneScreen = $('<div class="phone-container full">');
 
 function start($content){
     $('.full').remove();
