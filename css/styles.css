@@ -1094,10 +1094,6 @@ audio{
   box-shadow: inset 0px -10px 0 0px #fff, inset 0px -14px 0 0px #8fc1f8, inset 0px -18px 0 0px #fff, inset 0px -25px 0 0px #000;
 }
 
-body {
-  background: #fff0c8;
-}
-
 .kawaii {
   transform: scale(0.5, 0.5);
 }
