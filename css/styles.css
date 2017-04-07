@@ -136,11 +136,11 @@ audio{
 }
 
 .im-in.flash {
-    background-image: url(../images/flashy.jpg);
+    background-image: url(images/flashy.jpg);
     height: 235px;
-    width: 150px;
-    background-size: 98%;
-    background-position: 2px;
+    width: 136px;
+    background-size: 94%;
+    background-position: 5px;
     background-repeat: no-repeat;
 }
 
