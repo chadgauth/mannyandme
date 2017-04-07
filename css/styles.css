@@ -12,7 +12,7 @@ body {
            url(../images/GRIND.png)
            url(../images/manny.png)
            url(../images/chad.png)
-           url(../images/flash.png);
+           url(../images/flashy.jpg);
   visibility: hidden;
   position: absolute;
   left: -999em;
@@ -136,7 +136,7 @@ audio{
 }
 
 .im-in.flash {
-    background-image: url(../images/flash.png);
+    background-image: url(../images/flashy.jpg);
     height: 235px;
     width: 150px;
     background-size: 98%;
