@@ -35,21 +35,22 @@ audio{
 }
 
 .grindr-container{
-  background: darkgray;
+  background: #353535;
 }
 
 .grindr-header{
-  background: #FACA2A;
-  height: 40px;
-  width:100%;
-  position: relative;
+    background: linear-gradient(hsla(51, 97%, 75%, 1), #FACA2A, #ba9417);
+    height: 65px;
+    width: 100%;
+    position: relative;
 }
 
 .grindr-header .grind{
-    width: 37px;
-    height: 35px;
+    width: 48px;
+    height: 65px;
     position: absolute;
-    top: 2px;
+    top: 11px;
+    filter: brightness(0.3);
     left: 10px;
 }
 
