@@ -25,7 +25,7 @@ audio{
 
 .phone-container{
   background: url(../images/phoneback.png); 
-   background-size: cover;
+   background-size: 100%;
 }
 
 .announcement-container{
