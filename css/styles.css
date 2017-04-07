@@ -1,5 +1,3 @@
-
-
 * {
   font-size:16px;
 }
@@ -45,6 +43,7 @@ audio{
   font-family: 'Pacifico', cursive;
 }
 .heart {
+    transition: opacity 2s linear;
     color: white;
     z-index: 2;
     position: absolute;
@@ -54,6 +53,7 @@ audio{
     font-family: sans-serif;
 }
 #heart {
+    transition: opacity 2s linear;
     position: absolute;
     width: 126px;
     height: 101px;
