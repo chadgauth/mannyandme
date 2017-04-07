@@ -1,17 +1,17 @@
-var $introduction = $('<div class="announcement-container">' + 
+var $introduction = $('<div class="announcement-container full">' + 
                       '<div class="announcement delay 0">This is a story of boy meets boy.</div>' +
                       '<div class="announcement delay 4310">But you should know upfront,</div>' +
                       '<div class="announcement delay 8700">this is not a traditional love story.</div>' +
                       '</div>');
 var $introGo = $('<div class="heart-button delay 1200">Go</div>')
-              .bind("click", function(){ $('meta[name="theme-color"]')[0].content = "#00FF00"; });
+              .bind("click", function(){ $('meta[name="theme-color"]')[0].content = "#00FF00"; start($phoneScreen) });
+$introduction.append($introGo);
 
-var introArr = [$introduction, $introGo];
+var $phoneScreen = $('<div class="phone full">');
 
-function start(screenContentArr){
-    for(contentIdx in screenContentArr){
-      $('body').append(screenContentArr[contentIdx]);
-    }
+function start($content){
+    $('.full').remove();
+    $('body').append($content);
     executeDelays(); 
 };
 
