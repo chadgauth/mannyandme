@@ -163,5 +163,6 @@ function navigate5(){
 function navigate6(){
   $('.announcement').remove();
   $($achievementGo).remove();
+  $chadChar.addClass('walkin');
   $unremarkableScreen.append($chadChar);
 }
