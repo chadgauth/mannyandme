@@ -199,6 +199,7 @@ function navigate6(){
   $unremarkableScreen.append($mannyChat1);
   $unremarkableScreen.append($mannyChar);
   $unremarkableScreen.append($theymeetGo);
+  executeDelays();
 }
 
 function navigate7(){
