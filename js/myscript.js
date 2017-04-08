@@ -160,7 +160,7 @@ function navigate5(){
  start($unremarkableScreen);
 }
 
-function navigate5(){
+function navigate6(){
   $('.announcement').remove();
   $($achievementGo).remove();
   $unremarkableScreen.append($chadChar);
