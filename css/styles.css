@@ -294,6 +294,16 @@ p.speech.walkin {
 
 .meetcont {top: 637px;}
 
+.friends2 {
+    bottom: 75px;
+    position: absolute;
+    left: 152px;
+}
+
+.mannychar.friends2 {
+    left: -57px;
+}
+
 @keyframes slideup { from { bottom: -220px; } to { bottom:-12px; } }
 
 .kawaii.slide-up {
