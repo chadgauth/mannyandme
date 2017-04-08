@@ -58,8 +58,8 @@ var $theymeetGo = $('<div class="heart-icon delay 6000 opacity 1 start-hidden fa
                  '<div class="heart delay 6000 opacity 1 start-hidden fade-slow meetcont">continue</div>')
               .bind("click", navigate7);
 
-var $loveGo = $('<div class="heart-icon delay 6000 opacity 1 start-hidden fade-slow lovecont" id="heart"></div>' +
-                 '<div class="heart delay 6000 opacity 1 start-hidden fade-slow lovecont">continue</div>')
+var $loveGo = $('<div class="heart-icon delay 20500 opacity 1 start-hidden fade-slow lovecont" id="heart"></div>' +
+                 '<div class="heart delay 20500 opacity 1 start-hidden fade-slow lovecont">continue</div>')
               .bind("click", navigate8);
 
 var $finalAnnouncements = $('<div class="announcement delay 0 opacity 1 start-hidden fade-slow meetc">So they became friends</div>' +
