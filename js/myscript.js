@@ -193,5 +193,7 @@ function navigate7(){
   $mannyChar.removeClass('slide-up');
   $mannyChar.addClass('friends2');
   $chadChar.addClass('friends2');
+  $theymeetGo.remove();
   $unremarkableScreen.append($finalAnnouncements);
+  executeDelays();
 }
