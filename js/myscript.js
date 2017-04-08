@@ -167,6 +167,8 @@ function navigate6(){
   $($achievementGo).remove();
   $chadChar.addClass('walkin');
   $chadChat1.addClass('walkin');
+  $mannyChar.addClass('mannychar slide-up');
   $unremarkableScreen.append($chadChat1);
   $unremarkableScreen.append($chadChar);
+  $unremarkableScreen.append($mannyChar);
 }
