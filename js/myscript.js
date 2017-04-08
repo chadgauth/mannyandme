@@ -77,9 +77,9 @@ var $happyBday = $('<div class="announcement delay 0 opacity 1 start-hidden fade
                     '<div class="announcement delay 7200 opacity 1 start-hidden fade-slow">Cheers to our years together</div>' +
                     '<div class="announcement delay 7200 opacity 1 start-hidden fade-slow">and the years to come.</div>' +
                     '<div class="announcement delay 7200 opacity 1 start-hidden fade-slow"> </div>' +
-                    '<div class="announcement delay 10500 opacity 1 start-hidden fade-slow meetc">Happy birthday Manny, my love.</div>' +
-                    '<div class="announcement delay 13500 opacity 1 start-hidden fade-slow meetc">From the bottom of my heart</div>' +
-                    '<div class="announcement delay 15000 opacity 1 start-hidden fade-slow meetc">-Chad</div>');
+                    '<div class="announcement delay 10500 opacity 1 start-hidden fade-slow">Happy birthday Manny, my love.</div>' +
+                    '<div class="announcement delay 13500 opacity 1 start-hidden fade-slow">From the bottom of my heart</div>' +
+                    '<div class="announcement delay 15000 opacity 1 start-hidden fade-slow">-Chad</div>');
 
 var $chadChat1 = $('<p class="speech">Android, Google, Band 12, Nexus 5x, Tmobile, samsung sucks, and I\'m Chad</p>');
 var $chadChar = $(`<div class='kawaii'>
@@ -219,7 +219,7 @@ function navigate8(){
   $chadChar.remove();
   $mannyChar.remove();
   $unremarkableScreen.removeClass('b-yellow');
-  $('.announcement').remove;
+  $('.announcement').remove();
   $unremarkableScreen.append($happyBday);
   executeDelays();
 }
