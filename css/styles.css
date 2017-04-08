@@ -236,13 +236,15 @@ audio{
 }
 
 @keyframes walking {
-    0%   {top: -365px;}
-    20% {top: -265px;}
-    40%   {top: -165px;}
-    60%   {top: -65px;}
-    80%   {top: 35px;}
-    100% {top: 100px;}
+    00%   {top: -375px;}
+    20% {top: -275px;}
+    40%   {top: -175px;}
+    60%   {top: -75px;}
+    80%   {top: 25px;}
+    100% {top: 90px;}
 }
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .kawaii.walkin {
     position: absolute;
@@ -250,18 +252,28 @@ audio{
     animation-duration: 2.5s;
     animation-iteration-count: 1;
     left: 35px;
+    top: 90px;
+}
+
+p.speech.walkin {
+  position: absolute;
+  right: 45px;
+  top: 7px;
+  opacity:0;
+  animation:fadeIn ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:1s;
+  animation-delay: 2.5s;
 }
 
 
-
 p.speech {
-  position: absolute;
-    width: 200px;
+    position:relative;
+    width: 194px;
     height: 100px;
     text-align: center;
     font-size: 1.2em;
-    right: 30px;
-    top: 0;
+    font-family: sans-serif;
     line-height: 24px;
     background-color: #fff;
     border: 8px solid #666;
