@@ -18,12 +18,12 @@ var $grindrScreen = $('<div class="grindr-container full">' +
 
 var $grindrContent = $('<div class="grindr-content"><div class="manny photo">' +
                        '<p>hquinnzel</p></div></div>');
-var $chadGo = $('<div class="chad delay 1000 border-width 3px photo">' +
-                '<p>waddup boys</p><div class="message delay 1000 opacity 1">2</div></div>')
+var $chadGo = $('<div class="chad delay 4500 border-width 3px photo">' +
+                '<p>waddup boys</p><div class="message delay 4500 opacity 1">2</div></div>')
               .bind("click", navigate4);
 $grindrContent.append($chadGo).append(addPhoto("I'm boring")).append(addPhoto("Not worth it"))
 .append(addPhoto("I won't respond")).append(addPhoto("I smell like fritos")).append(addPhoto("Who wants donuTs?"))
-.append(addPhoto("U nekkid yet?")).append(addPhoto("Eunuch 4 eunuch"));
+.append(addPhoto("U nekkid yet?")).append(addPhoto("eunuch 4 eunuch"));
 $grindrScreen.append($grindrContent);
 function addPhoto(text) {
   return $('<div class="photo"><p>' + text +'</p></div>')
@@ -40,16 +40,17 @@ $chatContent.append($chatOptionsGo);
 var $unremarkableScreen = $('<div class="announcement-container fade-slow full b-yellow">' + 
                       '<div class="announcement delay 0 opacity 1 start-hidden fade-slow meetc">Most days of the year are unremarkable.</div>' +
                       '<div class="announcement delay 0 opacity 1 start-hidden fade-slow meetc"> </div>' +      
-                      '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow meetc">They begin and they end with</div>' +
-                      '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow meetc">no lasting memory made in between.</div>' +
-                      '<div class="announcement delay 3710 opacity 1 start-hidden fade-slow meetc"> </div>' +
-                      '<div class="announcement delay 7700 opacity 1 start-hidden fade-slow meetc">Most days have no impact</div>' +
-                      '<div class="announcement delay 7700 opacity 1 start-hidden fade-slow meetc">on the course of a life.</div>' +
-                      '<div class="announcement delay 7700 opacity 1 start-hidden fade-slow meetc"> </div>' +
+                      '<div class="announcement delay 3210 opacity 1 start-hidden fade-slow meetc">They begin and they end with</div>' +
+                      '<div class="announcement delay 3210 opacity 1 start-hidden fade-slow meetc">no lasting memory made in between.</div>' +
+                      '<div class="announcement delay 3210 opacity 1 start-hidden fade-slow meetc"> </div>' +
+                      '<div class="announcement delay 7200 opacity 1 start-hidden fade-slow meetc">Most days have no impact</div>' +
+                      '<div class="announcement delay 7200 opacity 1 start-hidden fade-slow meetc">on the course of a life.</div>' +
+                      '<div class="announcement delay 7200 opacity 1 start-hidden fade-slow meetc"> </div>' +
                       '<div class="announcement delay 10700 opacity 1 start-hidden fade-slow meetc">But this was not one of those days.</div>' +
                       '</div>');
 
-var $achievementGo = $('<div class="a-unlocked delay 12000 opacity 1 start-hidden fade-quick">Achievement Unlocked<br>New Friend</div>');
+var $achievementGo = $('<div class="a-unlocked delay 12000 opacity 1 start-hidden fade-quick">Achievement Unlocked<br>New Friend</div>')
+  .bind("click", navigate6);
 
 $unremarkableScreen.append($achievementGo);
 
@@ -155,5 +156,12 @@ function navigate4(){
 
 function navigate5(){
  $grindrScreen.remove();
+ $('meta[name="theme-color"]')[0].content = "#fff0c8";
  start($unremarkableScreen);
+}
+
+function navigate5(){
+  $('.announcement').remove();
+  $($achievementGo).remove();
+  $unremarkableScreen.append($chadChar);
 }
