@@ -266,6 +266,60 @@ p.speech.walkin {
   animation-delay: 2.5s;
 }
 
+.mannychar .hair-part-front.skater.puff {
+    border-left: 1px solid #fbf897;
+    background-color: #fbf897;
+}
+
+.mannychar .hair-part-back.skater.puff {
+    background-color: #fbf897;
+}
+
+.mannychar .shirt:before{
+    border-bottom: 100px solid pink;
+}
+
+.mannychar .arm{
+    box-shadow: inset 0px -60px 0 -30px #ffdfc4, inset 0px -68px 0 -30px black, inset 0px -75px 0 -30px pink, inset 0px -80px 0 -30px #8fc1f8;
+    background-color: pink;
+}
+
+.mannychar .shorts, .mannychar .shorts:before, .mannychar .shorts:after{
+    background-color: aliceblue;
+}
+
+@keyframes slideup { from { bottom: -220px; } to { bottom:-12px; } }
+
+.kawaii.slide-up {
+    position:absolute;
+    bottom:-220px;
+    left:-50px;
+    animation:slideup ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    animation-delay: 4s;
+}
+
+p.manny1.speech {
+    opacity:0;
+    position: absolute;
+    bottom: 300px;
+    right: 41px;
+    width: 169px;
+    height: 60px;
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:1s;
+    animation-delay: 4.7s;
+}
+
+p.manny1.speech:before {
+    top:65px;
+}
+
+p.manny1.speech:after {
+    top:59px;
+}
 
 p.speech {
     position:relative;
