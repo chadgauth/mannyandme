@@ -80,7 +80,7 @@ var $chadChar = $(`<div class='kawaii'>
   </div>
 </div>`);
 
-
+var $mannyChat1 = $('<p class="speech manny1">He\'s funny and smart. I like him</p>');
 var $mannyChar = $(`<div class='kawaii'>
   <div class='head-wrap'>
     <div class='head'>
@@ -170,5 +170,6 @@ function navigate6(){
   $mannyChar.addClass('mannychar slide-up');
   $unremarkableScreen.append($chadChat1);
   $unremarkableScreen.append($chadChar);
+  $unremarkableScreen.append($mannyChat1);
   $unremarkableScreen.append($mannyChar);
 }
