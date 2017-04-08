@@ -218,6 +218,7 @@ function navigate7(){
 function navigate8(){
   $chadChar.remove();
   $mannyChar.remove();
+  $loveGo.remove();
   $unremarkableScreen.removeClass('b-yellow');
   $('.announcement').remove();
   $unremarkableScreen.append($happyBday);
