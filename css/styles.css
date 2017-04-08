@@ -418,7 +418,35 @@ p.speech:after {
     transform-origin: 100% 100%;
 }
 
+@keyframes backcolor {
+    0% {background-color: #fbf897}
+    25% {background-color: #a4bd74}
+    50% {background-color: #632b2b}
+    75% {background-color: #924e64}
+    100% {background-color:#a00f0f}
+}
 
+@keyframes frontcolors {
+    0% {background-color: #fbf897; border-left: #fbf897}
+    25% {background-color: #a4bd74; border-left: #a4bd74}
+    50% {background-color: #632b2b; border-left: #632b2b}
+    75% {background-color: #924e64; border-left: #924e64}
+    100% {background-color:#a00f0f; border-left:#a00f0f}
+}
+
+.mannychar.friends2 .hair-part-front.skater.puff {
+  animation:frontcolors ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:9s;
+  animation-delay:11.5s;
+}
+
+.mannychar.friends2 .hair-part-back.skater.puff {
+    animation:backcolor ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:9s;
+  animation-delay:11.5s;
+}
 
 .kawaii {
   background-color: transparent;
