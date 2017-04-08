@@ -54,6 +54,8 @@ var $achievementGo = $('<div class="a-unlocked delay 12000 opacity 1 start-hidde
 
 $unremarkableScreen.append($achievementGo);
 
+
+var $chadChat1 = $('<p class="speech">Android, Google, Band 12, Nexus 5x, Tmobile, samsung sucks, and I\'m Chad</p>');
 var $chadChar = $(`<div class='kawaii'>
   <div class='head-wrap'>
     <div class='head'>
@@ -164,5 +166,7 @@ function navigate6(){
   $('.announcement').remove();
   $($achievementGo).remove();
   $chadChar.addClass('walkin');
+  $chadChat1.addClass('walkin');
+  $unremarkableScreen.append($chadChat1);
   $unremarkableScreen.append($chadChar);
 }
