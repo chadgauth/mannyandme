@@ -68,7 +68,7 @@ var $finalAnnouncements = $('<div class="announcement delay 0 opacity 1 start-hi
                             '<div class="announcement delay 8500 opacity 1 start-hidden fade-slow meetc">Drank coffee and talked nerd stuff</div>' +
                             '<div class="announcement delay 8500 opacity 1 start-hidden fade-slow meetc">and they were there for each other.</div>' +
                             '<div class="announcement delay 8500 opacity 1 start-hidden fade-slow meetc"> </div>' +
-                            '<div class="announcement delay 11500 opacity 1 start-hidden fade-slow meetc">The season changed, and so did Manny\'s hair</div>' +
+                            '<div class="announcement delay 11500 opacity 1 start-hidden fade-slow meetc">The seasons changed, and so did Manny\'s hair</div>' +
                             '<div class="announcement delay 20500 opacity 1 start-hidden fade-slow meetc">And, one day they fell in love</div>');
 
 var $happyBday = $('<div class="announcement delay 0 opacity 1 start-hidden fade-slow">I\'ve enjoyed your friendship.</div>' +
