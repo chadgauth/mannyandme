@@ -54,6 +54,9 @@ var $achievementGo = $('<div class="a-unlocked delay 12000 opacity 1 start-hidde
 
 $unremarkableScreen.append($achievementGo);
 
+var $theymeetGo = $('<div class="heart-icon delay 6000 opacity 1 start-hidden fade-slow meetcont" id="heart"></div>' +
+                 '<div class="heart delay 6000 opacity 1 start-hidden fade-slow meetcont">continue</div>')
+              .bind("click", navigate7);
 
 var $chadChat1 = $('<p class="speech">Android, Google, Band 12, Nexus 5x, Tmobile, samsung sucks, and I\'m Chad</p>');
 var $chadChar = $(`<div class='kawaii'>
@@ -172,4 +175,5 @@ function navigate6(){
   $unremarkableScreen.append($chadChar);
   $unremarkableScreen.append($mannyChat1);
   $unremarkableScreen.append($mannyChar);
+  $unremarkableScreen.append($theymeetGo);
 }
