@@ -58,14 +58,29 @@ var $theymeetGo = $('<div class="heart-icon delay 6000 opacity 1 start-hidden fa
                  '<div class="heart delay 6000 opacity 1 start-hidden fade-slow meetcont">continue</div>')
               .bind("click", navigate7);
 
-var $finalAnnouncements = $('<div class="announcement delay 0 opacity 1 start-hidden fade-slow meetc">They became friends</div>' +
-                            '<div class="announcement delay 1200 opacity 1 start-hidden fade-slow meetc">and they did everything together.</div>' +
-                            '<div class="announcement delay 3500 opacity 1 start-hidden fade-slow meetc">They watched movies.</div>' +
-                            '<div class="announcement delay 4500 opacity 1 start-hidden fade-slow meetc">Drank coffee and talked nerd stuff</div>' +
-                            '<div class="announcement delay 5700 opacity 1 start-hidden fade-slow meetc">and they were there for each other</div>' +
-                            '<div class="announcement delay 5700 opacity 1 start-hidden fade-slow meetc"> </div>' +
-                            '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow meetc">And as they grew closer</div>' +
-                            '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow meetc">One day they fell in love</div>');
+var $loveGo = $('<div class="heart-icon delay 6000 opacity 1 start-hidden fade-slow lovecont" id="heart"></div>' +
+                 '<div class="heart delay 6000 opacity 1 start-hidden fade-slow lovecont">continue</div>')
+              .bind("click", navigate8);
+
+var $finalAnnouncements = $('<div class="announcement delay 0 opacity 1 start-hidden fade-slow meetc">So they became friends</div>' +
+                            '<div class="announcement delay 2200 opacity 1 start-hidden fade-slow meetc">and they did everything together.</div>' +
+                            '<div class="announcement delay 5500 opacity 1 start-hidden fade-slow meetc">They watched movies and played video games</div>' +
+                            '<div class="announcement delay 8500 opacity 1 start-hidden fade-slow meetc">Drank coffee and talked nerd stuff</div>' +
+                            '<div class="announcement delay 8500 opacity 1 start-hidden fade-slow meetc">and they were there for each other.</div>' +
+                            '<div class="announcement delay 8500 opacity 1 start-hidden fade-slow meetc"> </div>' +
+                            '<div class="announcement delay 11500 opacity 1 start-hidden fade-slow meetc">The season changed, and so did Manny\'s hair</div>' +
+                            '<div class="announcement delay 20500 opacity 1 start-hidden fade-slow meetc">And, one day they fell in love</div>');
+
+var $happyBday = $('<div class="announcement delay 0 opacity 1 start-hidden fade-slow">I\'ve enjoyed your friendship.</div>' +
+                    '<div class="announcement delay 2200 opacity 1 start-hidden fade-slow">I\'ve enjoyed your love.</div>' +
+                    '<div class="announcement delay 4500 opacity 1 start-hidden fade-slow">I hope this is your best birthday ever</div>' +
+                    '<div class="announcement delay 7200 opacity 1 start-hidden fade-slow">Cheers to our years together</div>' +
+                    '<div class="announcement delay 7200 opacity 1 start-hidden fade-slow">and the years to come.</div>' +
+                    '<div class="announcement delay 7200 opacity 1 start-hidden fade-slow"> </div>' +
+                    '<div class="announcement delay 10500 opacity 1 start-hidden fade-slow meetc">Happy birthday Manny, my love.</div>' +
+                    '<div class="announcement delay 13500 opacity 1 start-hidden fade-slow meetc">From the bottom of my heart</div>' +
+                    '<div class="announcement delay 15000 opacity 1 start-hidden fade-slow meetc">-Chad</div>');
+
 var $chadChat1 = $('<p class="speech">Android, Google, Band 12, Nexus 5x, Tmobile, samsung sucks, and I\'m Chad</p>');
 var $chadChar = $(`<div class='kawaii'>
   <div class='head-wrap'>
@@ -195,5 +210,15 @@ function navigate7(){
   $chadChar.addClass('friends2');
   $theymeetGo.remove();
   $unremarkableScreen.append($finalAnnouncements);
+  $unremarkableScreen.append($loveGo);
+  executeDelays();
+}
+
+function navigate8(){
+  $chadChar.remove();
+  $mannyChar.remove();
+  $unremarkableScreen.removeClass('b-yellow');
+  $('.announcement').remove;
+  $unremarkableScreen.append($happyBday);
   executeDelays();
 }
