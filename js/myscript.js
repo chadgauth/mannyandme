@@ -69,9 +69,9 @@ var $chadChar = $(`<div class='kawaii'>
     </div>
   </div>
   <div class='torso'>
-    <div class='shirt square'></div>
-    <div class='arm left'></div>
-    <div class='arm right'></div>
+    <div class='shirt black square'></div>
+    <div class='arm black left'></div>
+    <div class='arm black right'></div>
     <div class='leg shoe left'></div>
     <div class='leg shoe right'></div>
     <div class='shorts long blue'></div>
