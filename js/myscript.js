@@ -65,7 +65,7 @@ var $finalAnnouncements = $('<div class="announcement delay 0 opacity 1 start-hi
                             '<div class="announcement delay 5700 opacity 1 start-hidden fade-slow meetc">and they were there for each other</div>' +
                             '<div class="announcement delay 5700 opacity 1 start-hidden fade-slow meetc"> </div>' +
                             '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow meetc">And as they grew closer</div>' +
-                            '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow meetc">One day they fell in love</div>' +
+                            '<div class="announcement delay 6700 opacity 1 start-hidden fade-slow meetc">One day they fell in love</div>');
 var $chadChat1 = $('<p class="speech">Android, Google, Band 12, Nexus 5x, Tmobile, samsung sucks, and I\'m Chad</p>');
 var $chadChar = $(`<div class='kawaii'>
   <div class='head-wrap'>
