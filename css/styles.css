@@ -288,6 +288,12 @@ p.speech.walkin {
     background-color: aliceblue;
 }
 
+#heart.meetcont {
+    top: 591px;
+}
+
+.meetcont {top: 637px;}
+
 @keyframes slideup { from { bottom: -220px; } to { bottom:-12px; } }
 
 .kawaii.slide-up {
