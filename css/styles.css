@@ -235,7 +235,22 @@ audio{
     background-size: 100%;
 }
 
+@keyframes walking {
+    0%   {top: -365px;}
+    20% {top: -265px;}
+    40%   {top: -165px;}
+    60%   {top: -65px;}
+    80%   {top: 35px;}
+    100% {top: 100px;}
+}
 
+.kawaii.walkin {
+    position: absolute;
+    animation-name: walking;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    left: 35px;
+}
 
 
 
